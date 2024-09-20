@@ -6,6 +6,7 @@ import { Home } from "../pages/Home";
 import { NotFound } from "../pages/NotFound";
 import { ListBirds } from "../pages/Birds-record/ListBirds";
 import { AddBird } from "../pages/Birds-record/AddBird";
+import { ShowDataBird } from "../pages/Birds-record/ShowDataBird";
 
 export const AppRouter = () => {
   return (
@@ -18,6 +19,7 @@ export const AppRouter = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/BirdsRecord/list" element={<ListBirds />} />
           <Route path="/BirdsRecord/add" element={<AddBird />} />
+          <Route path="/BirdsRecord/show" element={<ShowDataBird />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

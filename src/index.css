@@ -68,21 +68,42 @@ body, html, .App, #root, .auth-wrapper {
   margin: 2px;
 }
 .card-button{
-margin: 4px;
+margin: 2px;
 }
-.btn-mostrar{
-  background-color: rgb(23, 23, 109);
+.btn-aceptar{
+  background-color: rgb(30, 195, 207);
 }
 .btn-eliminar{
-  background-color: rgb(153, 16, 16);
+  background-color: rgb(233, 27, 27);
 }
 .btn-editar{
-  background-color: rgb(194, 194, 4);
+  background-color: rgb(241, 241, 28);
 }
 .btn-agregar{
-  background-color: rgb(5, 99, 5);
+  background-color: rgb(20, 143, 20);
 }
 .search{
   margin-top: 2px;
   text-align: center;
+  
+}
+.buscar{
+   width: 90%;
+   height: 100%;
+   border: none;
+   font-size: 25px;
+   margin-right: 10px;
+}
+.btn-search{
+  width: 90px;
+  
+}
+.size{
+  width: 80%;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button{
+  width: 50%;
 }

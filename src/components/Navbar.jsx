@@ -24,7 +24,7 @@ export const Navbar = () => {
               width="30"
               height="30"
             />
-            <Link className="navbar-brand  me-2" to="/home">
+            <Link className="navbar-brand ml-2" to="/home">
               Mis Canarios
             </Link>
           </Link>
